@@ -15,7 +15,7 @@ const MoviesDB = require("./modules/moviesDB.js");
 const db = new MoviesDB();      // to create a new "db" instance to work with the data
 
 require("dotenv").config();
-// console.log(">>>>> Debugging::MONGODB_CONN_STRING : " + process.env.MONGODB_CONN_STRING);
+
 
 const app = express();
 app.use(cors());
