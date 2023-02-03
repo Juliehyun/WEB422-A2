@@ -1,18 +1,19 @@
 {
-  "name": "moviesapi",
+  "name": "a2_moviesapi",
   "version": "1.0.0",
   "description": "",
-  "main": "server.js",
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Jihyun Nam",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Juliehyun/Web422.git"
+  },
+  "author": "",
   "license": "ISC",
-  "dependencies": {
-    "cors": "^2.8.5",
-    "dotenv": "^16.0.3",
-    "express": "^4.18.2",
-    "mongoose": "^6.8.3"
-  }
+  "bugs": {
+    "url": "https://github.com/Juliehyun/Web422/issues"
+  },
+  "homepage": "https://github.com/Juliehyun/Web422#readme"
 }
